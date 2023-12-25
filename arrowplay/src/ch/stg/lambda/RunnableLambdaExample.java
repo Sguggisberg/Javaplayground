@@ -1,4 +1,4 @@
-package ch.stg.lambdas;
+package ch.stg.lambda;
 
 public class RunnableLambdaExample {
 
