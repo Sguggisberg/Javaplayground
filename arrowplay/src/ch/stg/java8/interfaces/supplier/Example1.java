@@ -1,7 +1,6 @@
 package ch.stg.java8.interfaces.supplier;
 
 import ch.stg.java8.interfaces.mocks.Student;
-
 import java.util.Arrays;
 import java.util.function.Supplier;
 
