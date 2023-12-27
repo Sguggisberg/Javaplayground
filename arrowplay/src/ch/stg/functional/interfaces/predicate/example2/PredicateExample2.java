@@ -7,8 +7,8 @@ import ch.stg.functional.interfaces.mocks.StudentDataBase;
 
 public class PredicateExample2 {
 
-	private static Predicate<Student> p1 = (s) -> s.getGradeLevel() >= 3;
 	private static Predicate<Student> p2 = (s) -> s.getGpa() >= 3.9;
+	public static Predicate<Student> p1 = (s) -> s.getGradeLevel() >= 3;
 
 	public static void filterStudentByGradeLevelandGpa() {
 		List<Student> students = StudentDataBase.getAllStudents();
@@ -21,6 +21,5 @@ public class PredicateExample2 {
 
 	public static void main(String[] args) {
 		filterStudentByGradeLevelandGpa();
-
 	}
 }
