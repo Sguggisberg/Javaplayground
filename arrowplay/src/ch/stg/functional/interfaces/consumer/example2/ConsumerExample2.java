@@ -9,7 +9,7 @@ import ch.stg.functional.interfaces.mocks.StudentDataBase;
 public class ConsumerExample2 {
 
 	public static void main(String[] args) {
-		Consumer<Student> c1 = (student) -> System.out.println(student);
+		Consumer<Student> c1 = System.out::println;
 		List<Student> students = StudentDataBase.getAllStudents();
 		students.forEach(c1);
 		printNameAndActivities();
