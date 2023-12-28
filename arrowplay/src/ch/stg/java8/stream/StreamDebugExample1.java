@@ -8,8 +8,7 @@ import java.util.Map;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-public class StreamExample1 {
-
+public class StreamDebugExample1 {
     private static final Predicate<Student> STUDENT_PREDICATE = student -> student.getGradeLevel() >= 3;
     private static final Predicate<Student> STUDENT_PREDICATE_GPA = student -> student.getGpa() >= 3.9;
 
@@ -17,6 +16,7 @@ public class StreamExample1 {
         Map<String, List<String>> studentMap = StudentDataBase.getAllStudents().stream()
                 .filter(STUDENT_PREDICATE)
                 .filter(STUDENT_PREDICATE_GPA)
+                .peek(System.out::println)
                 .collect(Collectors.toMap(Student::getName, Student::getActivities));
         System.out.println(studentMap);
     }
