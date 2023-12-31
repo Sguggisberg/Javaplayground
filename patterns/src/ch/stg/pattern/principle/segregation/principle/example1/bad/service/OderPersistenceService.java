@@ -22,7 +22,6 @@ public class OderPersistenceService implements PersistenceService<Order> {
 		synchronized (ORDERS) {
 			ORDERS.remove(entity.getId());
 		}
-
 	}
 
 	@Override
