@@ -29,7 +29,7 @@ public class Example1 {
 		
 		Object o1 = ""; 
 		Object o2 = new Point();
-		System.out.println(o1.getClass().getClassLoader());
+		System.out.println(o1.getClass().getClassLoader()); // null --> Bootstrap class loader
 	}
 
 }
