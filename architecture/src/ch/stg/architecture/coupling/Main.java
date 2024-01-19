@@ -14,6 +14,6 @@ public class Main {
         // better
 
         Say d = new D();
-        System.out.println(new C(d).speack());
+        System.out.println(new C(d).speak());
     }
 }

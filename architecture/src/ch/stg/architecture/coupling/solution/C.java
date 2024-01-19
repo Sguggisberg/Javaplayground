@@ -8,7 +8,7 @@ public class C {
         this.x = x;
     }
 
-    public String speack() {
+    public String speak() {
         return x.sayHello();
     }
 
