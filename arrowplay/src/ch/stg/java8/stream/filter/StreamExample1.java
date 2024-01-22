@@ -1,4 +1,4 @@
-package ch.stg.java8.stream;
+package ch.stg.java8.stream.filter;
 
 import ch.stg.java8.mocks.Student;
 import ch.stg.java8.mocks.StudentDataBase;
