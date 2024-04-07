@@ -1,8 +1,8 @@
-package generic.wildcard;
+package ch.stg.generic.wildcard;
 
-import generic.bounded.Animal;
-import generic.bounded.Cat;
-import generic.bounded.Dog;
+import ch.stg.generic.bounded.Cat;
+import ch.stg.generic.bounded.Dog;
+import ch.stg.generic.bounded.Animal;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package generic.method.example1;
+package ch.stg.generic.method.example1;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package generic.klass;
+package ch.stg.generic.klass;
 
 public class Start {
 

@@ -1,6 +1,6 @@
-package generic.bounded;
+package ch.stg.generic.klass;
 
-public class Printer<T extends Animal> {
+public class Printer<T> {
     T thingToPrint;
 
     public Printer(T thingToPrint) {
@@ -8,7 +8,7 @@ public class Printer<T extends Animal> {
     }
 
     public void print() {
-        thingToPrint.eat();
+
         System.out.println(thingToPrint);
     }
 }
