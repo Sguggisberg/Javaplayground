@@ -1,4 +1,4 @@
 # Class Object
 
-Klassen werden erst bei der Verwendung geladen.
+Klassen werden erst bei deren Verwendung geladen.
 
