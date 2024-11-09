@@ -1,5 +1,5 @@
 package ch.stg.allgemein.yield;
-
+@SuppressWarnings("all")
 // Java 13
 public class Yield {
 
@@ -7,7 +7,7 @@ public class Yield {
 		ONE, TWO, THREE, FOUR;
 	}
 
-	// Befor Java 13
+	// Before Java 13
 	public static void main(String[] args) {
 		Number number = Number.TWO;
 
